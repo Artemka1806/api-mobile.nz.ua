@@ -9,7 +9,7 @@
 
 ### Вхід в систему
 
-**URL**: `https://api-mobile.nz.ua/v2/user/login`  
+**URL**: `https://api-mobile.nz.ua/v2/user/login` 
 **Метод**: `POST`  
 **Опис**: Авторизація користувача в системі
 
@@ -47,8 +47,8 @@
 ## Сповіщення
 
 ### Отримання сповіщень
-**URL**: `https://api-mobile.nz.ua/v2/notification/`
-**Метод**: `GET`
+**URL**: `https://api-mobile.nz.ua/v2/notification/`  
+**Метод**: `GET`  
 **Опис**: Отримання списку сповіщень користувача
 
 **Відповідь**:
@@ -77,8 +77,8 @@
 ```
 
 ### Кількість непрочитаних сповіщень
-**URL**: `https://api-mobile.nz.ua/v2/notification/unread-qty`
-**Метод**: `GET`
+**URL**: `https://api-mobile.nz.ua/v2/notification/unread-qty`  
+**Метод**: `GET`  
 **Опис**: Отримання кількості непрочитаних сповіщень
 
 **Відповідь**:
@@ -93,15 +93,15 @@
 
 ### Щоденник за період
 
-**URL**: `https://api-mobile.nz.ua/v2/schedule/diary`
-**Метод**: `POST`
+**URL**: `https://api-mobile.nz.ua/v2/schedule/diary`  
+**Метод**: `POST`  
 **Опис**: Отримання даних щоденника (розкладу) за вказаний період
 
 **Тіло запиту**:
 ```json
 {
-  "start": "2025-03-03",
-  "end": "2025-03-03"
+  "start_date": "2025-03-03",
+  "end_date": "2025-03-03"
 }
 ```
 
@@ -150,8 +150,8 @@
 
 ### Оцінки з предмету
 
-**URL**: `https://api-mobile.nz.ua/v2/schedule/subject-grades`
-**Метод**: `POST`
+**URL**: `https://api-mobile.nz.ua/v2/schedule/subject-grades`  
+**Метод**: `POST`  
 **Опис**: Отримання оцінок з предмету за вказаний період
 
 **Тіло запиту**:
@@ -159,7 +159,7 @@
 {
   "start_date": "2025-01-01",
   "end_date": "2025-07-30",
-  "subject_id": "36613478"
+  "subject_id": "1111111"
 }
 ```
 
